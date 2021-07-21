@@ -264,7 +264,7 @@ body {
 #question .q-contents, #question-pp .q-contents {
   position: absolute;
   top: 252px;
-  right: 15%;
+  left: 22%;
 }
 
 #question .q-contents .item, #question-pp .q-contents .item {
@@ -314,6 +314,7 @@ body {
   text-align: right;
   position: absolute;
   right: 15%;
+  transition: 0.3s;
 }
 
 #price .price-contents #acMenu .price-money {
@@ -708,12 +709,15 @@ body {
     left: 0;
     top: 25%;
   }
-  #price .price-contents dd {
+  #price .price-contents #acMenu dt .fa-chevron-down {
+    right: 8%;
+  }
+  #price .price-contents #acMenu dd {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 414px) {
   /* ------------------------------------------------ base ----------------------------------*/
   .s-ht {
     font-size: 1.3rem;
@@ -725,7 +729,7 @@ body {
     font-size: 1.3rem;
   }
   .page-item {
-    top: 710px;
+    bottom: 10px;
   }
   .page-item .number {
     font-size: 2.4em;
@@ -736,7 +740,6 @@ body {
   .more-btn {
     width: 120px;
     height: 30px;
-    top: 660px;
   }
   .more-btn a {
     line-height: 30px;
@@ -775,7 +778,7 @@ body {
     margin: 50px 0;
   }
   #introduce .more-btn {
-    bottom: 5px;
+    bottom: 0.5vh;
   }
   #performance-pp .header {
     left: 35%;
@@ -795,8 +798,8 @@ body {
     margin-bottom: 40px;
   }
   #performance-pp .more-btn {
-    top: 660px;
-    right: 10px;
+    top: 680px;
+    left: 10px;
   }
   #performance-pp .page-item {
     top: 710px;
@@ -820,13 +823,14 @@ body {
   #question-pp .q-contents {
     top: 150px;
     right: 5%;
+    left: 0;
   }
   #question-pp .q-contents .item {
     margin-bottom: 50px;
   }
   #question-pp .more-btn {
     top: 660px;
-    right: 15px;
+    left: 5px;
   }
   #question-pp .page-item {
     top: 710px;
@@ -856,6 +860,6 @@ body {
     font-size: 4rem;
   }
   #contact-pp .page-item {
-    top: 710px;
+    top: 700px;
   }
 }
