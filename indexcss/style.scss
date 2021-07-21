@@ -453,7 +453,7 @@ body{
 @media screen and (max-width: 769px){
 /* ------------------------------------------------------------ base --------------------------------------------------------- */
     .sp-pad{
-        display: block;
+        display: flex;
         padding: 30px;
         margin: 10px;
         height: calc(100vh - 20px);
@@ -471,7 +471,7 @@ body{
 /*-----------------------------------sp-pad----------------------------------------*/
     #philosophy-pp{
         position: relative;
-        border-left: 2px dashed #EDC1C1;
+        border: none;
         .container{
             position: absolute;
             top: 300px;
@@ -517,7 +517,7 @@ body{
         }
     }
     #question-pp{
-        border-left: 2px dashed #EDC1C1;
+        border: none;
         .header{
             left: 30%;
             top: 40px;
