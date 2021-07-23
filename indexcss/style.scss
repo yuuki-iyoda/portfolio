@@ -757,6 +757,10 @@ body{
             top: 680px;
             left: 10px;
         }
+        .page-item{
+            top:auto;
+            bottom: 5px;
+        }
     }
     #flow{
         .header{
@@ -790,8 +794,10 @@ body{
             left: 5px;
         }
         .page-item{
-            top: 710px;
+            top:auto;
+            bottom: 5px;
         }
+
     }
     #price{
         .header{
@@ -831,6 +837,10 @@ body{
                     }
                 }
             }
+        }
+        .page-item{
+            top:auto;
+            bottom: 5px;
         }
     }
 }
