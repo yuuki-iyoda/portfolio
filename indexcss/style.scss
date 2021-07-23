@@ -839,3 +839,178 @@ body{
         }
     }
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .s-ht{
+        font-size: 1.3rem;
+    }
+    .section-header{
+        font-size: 2.8em;
+    }
+    .s-text{
+        font-size: 1.3rem;
+    }
+    .page-item{
+        bottom: 10px;
+        .number{
+            font-size: 2.4em;
+        }
+        .page-txt{
+            font-size: 1rem;
+        }
+    }
+    .more-btn{
+        width: 120px;
+        height: 30px;
+        a{
+            line-height: 30px;
+            font-size: 1.2rem;
+        }
+    }
+/* ------------------------------------------------ main ----------------------------------*/
+    #top{
+        .section-header{
+            left: 0;
+            font-size: 2.8rem;
+        }
+        .top-image{
+            width: 250px;
+            left: 7%;
+        }
+        .position{
+            left: 7%;
+        }
+    }
+    #philosophy-pp{
+        .container{
+            top: 230px;
+            left: 5%;
+            .phi-text{
+                font-size: 2.1rem;
+            }
+            .phi-header{
+                font-size: 5.4rem;
+            }
+        }
+    }
+    #introduce{
+        .header{
+            left: 28%;
+        }
+        .intro-contents{
+            left: 0;
+            .intro-image{
+                width: 270px;
+                margin: 50px 0;
+            }
+        }
+        .more-btn{
+            bottom: 0.5vh;
+        }
+    }
+    #performance-pp{
+        .header{
+            left: 35%;
+        }
+        .performance-contents{
+            top: 150px;
+            left: 7%;
+            .per-item{
+                .p-image{
+                    width: 250px;
+                    height: 130px;
+                }
+                .per-text{
+                    font-size: 1.0rem;
+                }
+            }
+            .per-first{
+                margin-bottom: 40px;
+            }
+        }
+        .more-btn{
+            top: 680px;
+            left: 10px;
+        }
+        .page-item{
+            top: 710px;
+        }
+    }
+    #flow{
+        .header{
+            left: 22%;
+        }
+        .flow-contents{
+            top: 20%;
+            left: 13%;
+            padding: 40px 80px;
+            border-radius: 80px;
+            .s-tt{
+                font-size: 1.2rem;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    #question-pp{
+        .header{
+            left: 15%;
+        }
+        .q-contents{
+            top: 150px;
+            right: 5%;
+            left: 0;
+            .item{
+                margin-bottom: 50px;
+            }
+        }
+        .more-btn{
+            top: 660px;
+            left: 5px;
+        }
+        .page-item{
+            top: 710px;
+        }
+    }
+    #price{
+        .header{
+            left: 35%;
+        }
+        .price-contents{
+            #acMenu{
+                dt{
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+    #contact-pp{
+        .header{
+            left: 20%;
+        }
+        .contact-contents{
+            top: 250px;
+            .contact-item{
+                .contact-text{
+                    font-size: 1.4rem;
+                }
+                .contact-text-2{
+                    font-size: 1.4rem;
+                }
+            }
+            .contact-item-2{
+                .twitter-icon{
+                    .fa-twitter{
+                        font-size: 4rem;
+                    }
+                }
+                .contact-form{
+                    .fa-envelope{
+                        font-size: 4rem;
+                    }
+                }
+            }
+        }
+        .page-item{
+            top: 700px;
+        }
+    }
+}

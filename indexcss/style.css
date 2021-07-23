@@ -863,3 +863,149 @@ body {
     top: 700px;
   }
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .s-ht {
+    font-size: 1.3rem;
+  }
+  .section-header {
+    font-size: 2.8em;
+  }
+  .s-text {
+    font-size: 1.3rem;
+  }
+  .page-item {
+    bottom: 10px;
+  }
+  .page-item .number {
+    font-size: 2.4em;
+  }
+  .page-item .page-txt {
+    font-size: 1rem;
+  }
+  .more-btn {
+    width: 120px;
+    height: 30px;
+  }
+  .more-btn a {
+    line-height: 30px;
+    font-size: 1.2rem;
+  }
+  /* ------------------------------------------------ main ----------------------------------*/
+  #top .section-header {
+    left: 0;
+    font-size: 2.8rem;
+  }
+  #top .top-image {
+    width: 250px;
+    left: 7%;
+  }
+  #top .position {
+    left: 7%;
+  }
+  #philosophy-pp .container {
+    top: 230px;
+    left: 5%;
+  }
+  #philosophy-pp .container .phi-text {
+    font-size: 2.1rem;
+  }
+  #philosophy-pp .container .phi-header {
+    font-size: 5.4rem;
+  }
+  #introduce .header {
+    left: 28%;
+  }
+  #introduce .intro-contents {
+    left: 0;
+  }
+  #introduce .intro-contents .intro-image {
+    width: 270px;
+    margin: 50px 0;
+  }
+  #introduce .more-btn {
+    bottom: 0.5vh;
+  }
+  #performance-pp .header {
+    left: 35%;
+  }
+  #performance-pp .performance-contents {
+    top: 150px;
+    left: 7%;
+  }
+  #performance-pp .performance-contents .per-item .p-image {
+    width: 250px;
+    height: 130px;
+  }
+  #performance-pp .performance-contents .per-item .per-text {
+    font-size: 1.0rem;
+  }
+  #performance-pp .performance-contents .per-first {
+    margin-bottom: 40px;
+  }
+  #performance-pp .more-btn {
+    top: 680px;
+    left: 10px;
+  }
+  #performance-pp .page-item {
+    top: 710px;
+  }
+  #flow .header {
+    left: 22%;
+  }
+  #flow .flow-contents {
+    top: 20%;
+    left: 13%;
+    padding: 40px 80px;
+    border-radius: 80px;
+  }
+  #flow .flow-contents .s-tt {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  #question-pp .header {
+    left: 15%;
+  }
+  #question-pp .q-contents {
+    top: 150px;
+    right: 5%;
+    left: 0;
+  }
+  #question-pp .q-contents .item {
+    margin-bottom: 50px;
+  }
+  #question-pp .more-btn {
+    top: 660px;
+    left: 5px;
+  }
+  #question-pp .page-item {
+    top: 710px;
+  }
+  #price .header {
+    left: 35%;
+  }
+  #price .price-contents #acMenu dt {
+    font-size: 1.6rem;
+  }
+  #contact-pp .header {
+    left: 20%;
+  }
+  #contact-pp .contact-contents {
+    top: 250px;
+  }
+  #contact-pp .contact-contents .contact-item .contact-text {
+    font-size: 1.4rem;
+  }
+  #contact-pp .contact-contents .contact-item .contact-text-2 {
+    font-size: 1.4rem;
+  }
+  #contact-pp .contact-contents .contact-item-2 .twitter-icon .fa-twitter {
+    font-size: 4rem;
+  }
+  #contact-pp .contact-contents .contact-item-2 .contact-form .fa-envelope {
+    font-size: 4rem;
+  }
+  #contact-pp .page-item {
+    top: 700px;
+  }
+}
