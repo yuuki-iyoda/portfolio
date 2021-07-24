@@ -835,7 +835,7 @@ body {
   }
   #question-pp .more-btn {
     top: auto;
-    bottom: 70px;
+    bottom: 5px;
     left: 10px;
   }
   #question-pp .page-item {
