@@ -695,7 +695,7 @@ body{
 /* ------------------------------------------------ main ----------------------------------*/
     #top{
         .section-header{
-            left: 0;
+            left: 5%;
             font-size: 2.8rem;
         }
         .top-image{
@@ -723,22 +723,24 @@ body{
             left: 28%;
         }
         .intro-contents{
-            left: 0;
+            left: 10px;
             .intro-image{
                 width: 270px;
                 margin: 50px 0;
             }
         }
         .more-btn{
-            bottom: 0.5vh;
+            top: auto;
+            bottom: 5px;
         }
     }
     #performance-pp{
         .header{
+            top: 10px;
             left: 35%;
         }
         .performance-contents{
-            top: 150px;
+            top: 100px;
             left: 7%;
             .per-item{
                 .p-image{
@@ -754,7 +756,8 @@ body{
             }
         }
         .more-btn{
-            top: 680px;
+            top: auto;
+            bottom: 5px;
             left: 10px;
         }
         .page-item{
@@ -790,8 +793,9 @@ body{
             }
         }
         .more-btn{
-            top: 660px;
-            left: 5px;
+            top: auto;
+            bottom: 70px;
+            left: 10px;
         }
         .page-item{
             top:auto;
