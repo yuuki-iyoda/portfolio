@@ -468,6 +468,9 @@ body{
     .header{
         top: 5%;
     }
+    .page{
+        height: calc(100svh - 40px);
+    }
 /*-----------------------------------sp-pad----------------------------------------*/
     #philosophy-pp{
         position: relative;
